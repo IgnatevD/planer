@@ -1,0 +1,25 @@
+{
+  "name": "planer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /planer/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IgnatevD/planer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IgnatevD/planer/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "homepage": "https://github.com/IgnatevD/planer#readme"
+}

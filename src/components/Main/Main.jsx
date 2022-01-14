@@ -11,7 +11,7 @@ const Main = () => {
 
   return (
     <main>
-      <p> Потрачено {count} </p>
+      <p> Потрачено денег {count} </p>
       <input type="number" value={count} onChange={handelChange} />
       <div>
         <Button titel={"Плюс"} onClikFn={inrement} />
